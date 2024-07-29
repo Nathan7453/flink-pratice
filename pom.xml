@@ -15,9 +15,16 @@
     <flink.version>1.19.1</flink.version>
     <jackson.version>2.17.2</jackson.version>
     <mongo.version>4.10.2</mongo.version>
+    <xxljob.version>2.4.1</xxljob.version>
   </properties>
 
   <dependencies>
+    <dependency>
+      <groupId>com.xuxueli</groupId>
+      <artifactId>xxl-job-core</artifactId>
+      <version>${xxljob.version}</version>
+    </dependency>
+
     <dependency>
       <groupId>org.apache.flink</groupId>
       <artifactId>flink-streaming-java</artifactId>

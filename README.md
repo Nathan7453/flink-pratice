@@ -31,3 +31,13 @@
 使用多线程技术在执行器节点上处理任务分片并记录日志。
 提供完整的配置和代码示例。
 ```
+
+#### 1. 问题1说明
+
+* 入口函数: cn.nathan.flink.FromKafka2MongoApp
+
+#### 2. 问题2说明
+
+![img.png](img.png)
+
+* 入口函数: cn.nathan.xxljob.XxlJobShareJobHandler
